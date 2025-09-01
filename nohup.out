@@ -1,0 +1,912 @@
+Global seed set to 6573
+2025-08-26 13:29:53,954 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mode = train
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_val = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_test = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : config = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/yaml/config.yaml
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : output = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo_20250826132953
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : random_seed = 6573
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : PMC_enable = True
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mass_control_tol = 0.1
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : load_file_name = 
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_ctc = False
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_peaks = 300
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_mz = 1.0
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_mz = 6500.0
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_intensity = 0.0
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : remove_precursor_tol = 1.0
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_charge = 10
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : precursor_mass_tol = 50.0
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : isotope_error_range = (0, 1)
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_model = 400
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_head = 8
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_feedforward = 1024
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_layers = 9
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dropout = 0.18
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_intensity = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_encoder = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_length = 40
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : residues = {'A': 71.037114, 'D': 115.026943, 'E': 129.042593, 'F': 147.068414, 'G': 57.021464, 'H': 137.058912, 'I': 113.084064, 'K': 128.094963, 'L': 113.084064, 'M': 131.040485, 'N': 114.042927, 'O': 237.147727, 'P': 97.052764, 'Q': 128.058578, 'R': 156.101111, 'S': 87.032028, 'T': 101.047679, 'U': 150.953633, 'V': 99.068414, 'W': 186.079313, 'Y': 163.063329, 'C+57.021': 160.030649, 'M+15.995': 147.0354, '+42.011': 42.010565}
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_log = 1
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tb_summarywriter = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/tensorboard/test_567
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : enable_neptune = False
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_project = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_api_token = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tags = []
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warmup_iters = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_iters = None
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_epochs = 40
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warm_up_epochs = 3
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : learning_rate = 0.00035
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : weight_decay = 8e-05
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_val = 2.5
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_algorithm = norm
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : accumulate_grad_batches = 1
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : sync_batchnorm = False
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : SWA = False
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_batch_size = 256
+2025-08-26 13:29:53,955 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : predict_batch_size = 256
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_beams = 5
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : logger = None
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : num_sanity_val_steps = 0
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_scratch = True
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_nodes = 1
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_model = True
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_resume = False
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model_save_folder_path = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/checkpoints_567files_0826
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_weights_only = False
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : every_n_train_steps = 2500
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : temp_dir_auto = True
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : val_interval = 0.99
+2025-08-26 13:29:53,956 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_workers = 32
+2025-08-26 13:29:53,956 INFO [XuanjiNovo/MainProcess] XuanjiNovo.main : Train the XuanjiNovo model.
+2025-08-26 13:29:53,959 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+entering modelrunner_train
+peak path iis :  /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+prepare_data ing.....
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 672spectra [00:00, 6713.81spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1373spectra [00:00, 6883.17spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2073spectra [00:00, 6934.11spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2767spectra [00:00, 4358.57spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3469spectra [00:00, 5053.84spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4208spectra [00:00, 5688.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4923spectra [00:00, 6096.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5596spectra [00:00, 6273.45spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6264spectra [00:01, 6334.35spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:01, 6016.12spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 581spectra [00:00, 5806.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1174spectra [00:00, 5874.86spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1762spectra [00:00, 5818.88spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2344spectra [00:00, 5745.95spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2919spectra [00:00, 5583.42spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3479spectra [00:00, 5313.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4037spectra [00:00, 5394.66spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4628spectra [00:00, 5551.11spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5192spectra [00:00, 5577.05spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5795spectra [00:01, 5712.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6387spectra [00:01, 5774.85spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7017spectra [00:01, 5932.23spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5707.54spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 723spectra [00:00, 7227.30spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1446spectra [00:00, 7073.35spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2154spectra [00:00, 7058.49spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2890spectra [00:00, 7175.32spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3668spectra [00:00, 7391.88spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7174.07spectra/s]
+2025-08-26 13:30:02,567 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 725spectra [00:00, 7243.72spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1452spectra [00:00, 7258.62spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2178spectra [00:00, 7167.46spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2895spectra [00:00, 7152.34spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3623spectra [00:00, 7197.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4343spectra [00:00, 7172.36spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5061spectra [00:00, 7146.45spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5776spectra [00:00, 7126.40spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6525spectra [00:00, 7234.58spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7202.75spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 588spectra [00:00, 5873.77spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1181spectra [00:00, 5904.20spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1772spectra [00:00, 5788.41spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2361spectra [00:00, 5825.47spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2944spectra [00:00, 5681.76spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3513spectra [00:00, 5634.57spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4079spectra [00:00, 5641.84spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4676spectra [00:00, 5743.64spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5251spectra [00:00, 5732.44spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5825spectra [00:01, 5619.42spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6434spectra [00:01, 5760.49spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7081spectra [00:01, 5970.67spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5839.67spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 721spectra [00:00, 7202.90spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1442spectra [00:00, 7054.60spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2148spectra [00:00, 7001.59spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2876spectra [00:00, 7108.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3650spectra [00:00, 7330.74spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7291.87spectra/s]
+2025-08-26 13:30:10,664 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 749spectra [00:00, 7484.08spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1498spectra [00:00, 7339.56spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2233spectra [00:00, 7211.65spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2955spectra [00:00, 7052.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3674spectra [00:00, 7096.20spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4430spectra [00:00, 7250.52spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5156spectra [00:00, 7198.29spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5877spectra [00:00, 7188.05spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7148.65spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7179.95spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 581spectra [00:00, 5804.57spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1171spectra [00:00, 5859.70spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1757spectra [00:00, 5769.22spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2339spectra [00:00, 5786.93spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2918spectra [00:00, 5663.11spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3485spectra [00:00, 5631.63spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4049spectra [00:00, 5621.20spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4612spectra [00:00, 5511.24spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5183spectra [00:00, 5570.64spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5794spectra [00:01, 5733.96spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6390spectra [00:01, 5802.19spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7027spectra [00:01, 5972.37spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5820.52spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 729spectra [00:00, 7284.83spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1458spectra [00:00, 7080.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2167spectra [00:00, 7041.17spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2910spectra [00:00, 7190.34spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3684spectra [00:00, 7386.59spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7342.67spectra/s]
+2025-08-26 13:30:19,695 WARNING [py.warnings/MainProcess] warnings._showwarnmsg : /storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/lightning_lite/plugins/environments/slurm.py:167: PossibleUserWarning: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /storage/guotiannanLab/sunyingying/massNet-meta/Mass ...
+  rank_zero_warn(
+
+[rank: 1] Global seed set to 8286
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mode = train
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model = None
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_val = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_test = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : config = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/yaml/config.yaml
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : output = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo_20250826133023
+2025-08-26 13:30:23,924 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : random_seed = 8286
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : PMC_enable = True
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mass_control_tol = 0.1
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : load_file_name = 
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_ctc = False
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_peaks = 300
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_mz = 1.0
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_mz = 6500.0
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_intensity = 0.0
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : remove_precursor_tol = 1.0
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_charge = 10
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : precursor_mass_tol = 50.0
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : isotope_error_range = (0, 1)
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_model = 400
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_head = 8
+2025-08-26 13:30:23,925 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_feedforward = 1024
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_layers = 9
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dropout = 0.18
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_intensity = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_encoder = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_length = 40
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : residues = {'A': 71.037114, 'D': 115.026943, 'E': 129.042593, 'F': 147.068414, 'G': 57.021464, 'H': 137.058912, 'I': 113.084064, 'K': 128.094963, 'L': 113.084064, 'M': 131.040485, 'N': 114.042927, 'O': 237.147727, 'P': 97.052764, 'Q': 128.058578, 'R': 156.101111, 'S': 87.032028, 'T': 101.047679, 'U': 150.953633, 'V': 99.068414, 'W': 186.079313, 'Y': 163.063329, 'C+57.021': 160.030649, 'M+15.995': 147.0354, '+42.011': 42.010565}
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_log = 1
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tb_summarywriter = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/tensorboard/test_567
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : enable_neptune = False
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_project = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_api_token = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tags = []
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warmup_iters = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_iters = None
+2025-08-26 13:30:23,926 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_epochs = 40
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warm_up_epochs = 3
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : learning_rate = 0.00035
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : weight_decay = 8e-05
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_val = 2.5
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_algorithm = norm
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : accumulate_grad_batches = 1
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : sync_batchnorm = False
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : SWA = False
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_batch_size = 256
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : predict_batch_size = 256
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_beams = 5
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : logger = None
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : num_sanity_val_steps = 0
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_scratch = True
+2025-08-26 13:30:23,927 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_nodes = 1
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_model = True
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_resume = False
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model_save_folder_path = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/checkpoints_567files_0826
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_weights_only = False
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : every_n_train_steps = 2500
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : temp_dir_auto = True
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : val_interval = 0.99
+2025-08-26 13:30:23,928 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_workers = 32
+2025-08-26 13:30:23,928 INFO [XuanjiNovo/MainProcess] XuanjiNovo.main : Train the XuanjiNovo model.
+2025-08-26 13:30:23,931 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+entering modelrunner_train
+peak path iis :  /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+prepare_data ing.....
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 601spectra [00:00, 6008.00spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1312spectra [00:00, 6648.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2015spectra [00:00, 6821.05spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2711spectra [00:00, 6874.65spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3399spectra [00:00, 6803.75spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4146spectra [00:00, 7027.37spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4879spectra [00:00, 7125.67spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5592spectra [00:00, 7101.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6336spectra [00:00, 7205.78spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7036.69spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 480spectra [00:00, 4783.48spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 959spectra [00:00, 4346.11spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1546spectra [00:00, 5003.70spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2111spectra [00:00, 5248.84spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2670spectra [00:00, 5369.16spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3214spectra [00:00, 5390.33spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3755spectra [00:00, 4625.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4320spectra [00:00, 4912.85spectra/s][rank: 2] Global seed set to 5228
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mode = train
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model = None
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_val = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_test = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : config = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/yaml/config.yaml
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : output = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo_20250826133027
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : random_seed = 5228
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : PMC_enable = True
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mass_control_tol = 0.1
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : load_file_name = 
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_ctc = False
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_peaks = 300
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_mz = 1.0
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_mz = 6500.0
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_intensity = 0.0
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : remove_precursor_tol = 1.0
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_charge = 10
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : precursor_mass_tol = 50.0
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : isotope_error_range = (0, 1)
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_model = 400
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_head = 8
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_feedforward = 1024
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_layers = 9
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dropout = 0.18
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_intensity = None
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_encoder = None
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_length = 40
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : residues = {'A': 71.037114, 'D': 115.026943, 'E': 129.042593, 'F': 147.068414, 'G': 57.021464, 'H': 137.058912, 'I': 113.084064, 'K': 128.094963, 'L': 113.084064, 'M': 131.040485, 'N': 114.042927, 'O': 237.147727, 'P': 97.052764, 'Q': 128.058578, 'R': 156.101111, 'S': 87.032028, 'T': 101.047679, 'U': 150.953633, 'V': 99.068414, 'W': 186.079313, 'Y': 163.063329, 'C+57.021': 160.030649, 'M+15.995': 147.0354, '+42.011': 42.010565}
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_log = 1
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tb_summarywriter = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/tensorboard/test_567
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : enable_neptune = False
+2025-08-26 13:30:27,576 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_project = None
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_api_token = None
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tags = []
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warmup_iters = None
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_iters = None
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_epochs = 40
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warm_up_epochs = 3
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : learning_rate = 0.00035
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : weight_decay = 8e-05
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_val = 2.5
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_algorithm = norm
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : accumulate_grad_batches = 1
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : sync_batchnorm = False
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : SWA = False
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_batch_size = 256
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : predict_batch_size = 256
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_beams = 5
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : logger = None
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : num_sanity_val_steps = 0
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_scratch = True
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_nodes = 1
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_model = True
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_resume = False
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model_save_folder_path = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/checkpoints_567files_0826
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_weights_only = False
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : every_n_train_steps = 2500
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : temp_dir_auto = True
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : val_interval = 0.99
+2025-08-26 13:30:27,577 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_workers = 32
+2025-08-26 13:30:27,577 INFO [XuanjiNovo/MainProcess] XuanjiNovo.main : Train the XuanjiNovo model.
+2025-08-26 13:30:27,579 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+entering modelrunner_train
+peak path iis :  /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+prepare_data ing.....
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4828spectra [00:00, 4922.60spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 675spectra [00:00, 6745.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5403spectra [00:01, 5162.48spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1363spectra [00:00, 6824.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6001spectra [00:01, 5401.13spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2050spectra [00:00, 6845.18spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6587spectra [00:01, 5535.97spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2736spectra [00:00, 6849.86spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7247spectra [00:01, 5850.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5308.08spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3421spectra [00:00, 6810.83spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4152spectra [00:00, 6977.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4866spectra [00:00, 7027.12spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5569spectra [00:00, 7005.21spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6297spectra [00:00, 7090.22spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7008.97spectra/s]
+[rank: 3] Global seed set to 8310
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mode = train
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model = None
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_val = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : peak_path_test = /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : config = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/yaml/config.yaml
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : output = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo_20250826133030
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : random_seed = 8310
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : PMC_enable = True
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : mass_control_tol = 0.1
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : load_file_name = 
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_ctc = False
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_peaks = 300
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_mz = 1.0
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_mz = 6500.0
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : min_intensity = 0.0
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : remove_precursor_tol = 1.0
+2025-08-26 13:30:30,326 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_charge = 10
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : precursor_mass_tol = 50.0
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : isotope_error_range = (0, 1)
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_model = 400
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_head = 8
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_feedforward = 1024
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_layers = 9
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dropout = 0.18
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : dim_intensity = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : custom_encoder = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_length = 40
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : residues = {'A': 71.037114, 'D': 115.026943, 'E': 129.042593, 'F': 147.068414, 'G': 57.021464, 'H': 137.058912, 'I': 113.084064, 'K': 128.094963, 'L': 113.084064, 'M': 131.040485, 'N': 114.042927, 'O': 237.147727, 'P': 97.052764, 'Q': 128.058578, 'R': 156.101111, 'S': 87.032028, 'T': 101.047679, 'U': 150.953633, 'V': 99.068414, 'W': 186.079313, 'Y': 163.063329, 'C+57.021': 160.030649, 'M+15.995': 147.0354, '+42.011': 42.010565}
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_log = 1
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tb_summarywriter = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/tensorboard/test_567
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : enable_neptune = False
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_project = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : neptune_api_token = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : tags = []
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warmup_iters = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_iters = None
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : max_epochs = 40
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : warm_up_epochs = 3
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : learning_rate = 0.00035
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : weight_decay = 8e-05
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_val = 2.5
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : gradient_clip_algorithm = norm
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : accumulate_grad_batches = 1
+2025-08-26 13:30:30,327 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : sync_batchnorm = False
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : SWA = False
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_batch_size = 256
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : predict_batch_size = 256
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_beams = 5
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : logger = None
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : num_sanity_val_steps = 0
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_scratch = True
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_nodes = 1
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_model = True
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : train_from_resume = False
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : model_save_folder_path = /storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/checkpoints_567files_0826
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : save_weights_only = False
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : every_n_train_steps = 2500
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : temp_dir_auto = True
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : val_interval = 0.99
+2025-08-26 13:30:30,328 DEBUG [XuanjiNovo/MainProcess] XuanjiNovo.main : n_workers = 32
+2025-08-26 13:30:30,328 INFO [XuanjiNovo/MainProcess] XuanjiNovo.main : Train the XuanjiNovo model.
+2025-08-26 13:30:30,342 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+entering modelrunner_train
+peak path iis :  /storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/*.mgf
+prepare_data ing.....
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 686spectra [00:00, 6849.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 587spectra [00:00, 5864.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1392spectra [00:00, 6971.46spectra/s][rank: 0] Global seed set to 6573
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1184spectra [00:00, 5925.70spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2099spectra [00:00, 7010.34spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1777spectra [00:00, 5876.61spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2801spectra [00:00, 6989.93spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2365spectra [00:00, 5842.96spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 722spectra [00:00, 7218.78spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3501spectra [00:00, 6954.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2950spectra [00:00, 5621.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1444spectra [00:00, 7054.92spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4262spectra [00:00, 7175.18spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3514spectra [00:00, 5593.35spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2150spectra [00:00, 7047.43spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4989spectra [00:00, 7203.03spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4079spectra [00:00, 5610.27spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2906spectra [00:00, 7244.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5710spectra [00:00, 7182.85spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4641spectra [00:00, 5445.23spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3672spectra [00:00, 7389.42spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6465spectra [00:00, 7295.90spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7163.44spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7315.42spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5187spectra [00:00, 5442.64spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5784spectra [00:01, 5600.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6367spectra [00:01, 5669.04spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6972spectra [00:01, 5780.31spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5742.17spectra/s]
+2025-08-26 13:30:32,420 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 730spectra [00:00, 7295.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1460spectra [00:00, 7258.32spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2186spectra [00:00, 7175.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2904spectra [00:00, 7148.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3639spectra [00:00, 7215.59spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4406spectra [00:00, 7368.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 581spectra [00:00, 5803.23spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5143spectra [00:00, 7049.28spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1169spectra [00:00, 5846.22spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5862spectra [00:00, 7090.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1754spectra [00:00, 5758.49spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7210.92spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2331spectra [00:00, 5762.01spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2908spectra [00:00, 5609.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3470spectra [00:00, 5573.26spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4031spectra [00:00, 5583.31spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4590spectra [00:00, 5468.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5154spectra [00:00, 5518.33spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5754spectra [00:01, 5663.19spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6338spectra [00:01, 5714.85spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6943spectra [00:01, 5814.72spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5752.84spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 714spectra [00:00, 7130.84spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1428spectra [00:00, 7033.72spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2132spectra [00:00, 7032.30spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2884spectra [00:00, 7223.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3645spectra [00:00, 7357.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7277.17spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 600spectra [00:00, 5996.56spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1203spectra [00:00, 6015.85spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1805spectra [00:00, 5856.40spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2392spectra [00:00, 5824.89spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2975spectra [00:00, 5547.19spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3532spectra [00:00, 5549.77spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4092spectra [00:00, 5565.06spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4698spectra [00:00, 5717.72spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5271spectra [00:00, 5720.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5879spectra [00:01, 5830.33spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6489spectra [00:01, 5897.93spectra/s]2025-08-26 13:30:36,174 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7080spectra [00:01, 5884.17spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 729spectra [00:00, 7282.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5830.05spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1458spectra [00:00, 7220.96spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2181spectra [00:00, 7186.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2911spectra [00:00, 7229.48spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3655spectra [00:00, 7304.49spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4421spectra [00:00, 7423.32spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5164spectra [00:00, 7147.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5881spectra [00:00, 7120.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7246.15spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 720spectra [00:00, 7195.15spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1440spectra [00:00, 7051.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2146spectra [00:00, 6956.19spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2895spectra [00:00, 7161.40spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3666spectra [00:00, 7354.88spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7291.95spectra/s]
+2025-08-26 13:30:38,742 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 725spectra [00:00, 7248.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 603spectra [00:00, 6029.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1450spectra [00:00, 7244.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1206spectra [00:00, 5993.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 745spectra [00:00, 7449.24spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2175spectra [00:00, 7201.39spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1806spectra [00:00, 5878.24spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1490spectra [00:00, 7220.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2896spectra [00:00, 7174.48spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2395spectra [00:00, 5876.53spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2213spectra [00:00, 7139.04spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3641spectra [00:00, 7270.24spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2983spectra [00:00, 5634.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2954spectra [00:00, 7241.38spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4405spectra [00:00, 7395.08spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3548spectra [00:00, 5579.97spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3719spectra [00:00, 7385.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5145spectra [00:00, 7042.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4107spectra [00:00, 5543.26spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7213.91spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5866spectra [00:00, 7093.27spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4693spectra [00:00, 5638.21spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7222.08spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5258spectra [00:00, 5604.78spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5841spectra [00:01, 5672.86spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6438spectra [00:01, 5760.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7015spectra [00:01, 5687.40spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5756.00spectra/s]
+2025-08-26 13:30:40,632 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 730spectra [00:00, 7294.34spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1466spectra [00:00, 7329.66spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2199spectra [00:00, 7282.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2931spectra [00:00, 7294.51spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3677spectra [00:00, 7353.87spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4413spectra [00:00, 7263.04spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5140spectra [00:00, 7187.45spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5863spectra [00:00, 7199.48spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 589spectra [00:00, 5881.54spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7294.41spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1184spectra [00:00, 5916.12spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1776spectra [00:00, 5822.65spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2363spectra [00:00, 5837.13spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2947spectra [00:00, 5513.20spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3502spectra [00:00, 5512.59spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4065spectra [00:00, 5547.87spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4652spectra [00:00, 5648.04spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5218spectra [00:00, 5638.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5815spectra [00:01, 5738.90spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6415spectra [00:01, 5816.69spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6998spectra [00:01, 5755.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5766.57spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 717spectra [00:00, 7166.30spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1434spectra [00:00, 7074.43spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2142spectra [00:00, 7042.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2890spectra [00:00, 7212.44spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3665spectra [00:00, 7401.44spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7244.43spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 592spectra [00:00, 5913.76spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1185spectra [00:00, 5919.94spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1777spectra [00:00, 5812.46spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2370spectra [00:00, 5854.69spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2956spectra [00:00, 5700.30spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3527spectra [00:00, 5646.84spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4093spectra [00:00, 5636.83spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4696spectra [00:00, 5756.83spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5273spectra [00:00, 5753.18spectra/s]2025-08-26 13:30:44,281 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5849spectra [00:01, 5593.92spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 731spectra [00:00, 7304.19spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6460spectra [00:01, 5746.03spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1462spectra [00:00, 7259.93spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7111spectra [00:01, 5973.16spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5840.76spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2189spectra [00:00, 7227.42spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2912spectra [00:00, 7226.11spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3653spectra [00:00, 7290.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4383spectra [00:00, 7261.50spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5110spectra [00:00, 7204.44spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5831spectra [00:00, 7166.97spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6592spectra [00:00, 7299.91spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7257.59spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 736spectra [00:00, 7356.69spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1472spectra [00:00, 7194.63spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2192spectra [00:00, 7155.16spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2937spectra [00:00, 7267.73spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3708spectra [00:00, 7424.10spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7286.05spectra/s]
+2025-08-26 13:30:46,911 INFO [denovo.db_index/MainProcess] db_index.__init__ : Reading 3 files...
+what lock is this: True
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 749spectra [00:00, 7475.62spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 585spectra [00:00, 5842.33spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 1497spectra [00:00, 7447.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1175spectra [00:00, 5869.73spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2242spectra [00:00, 7292.75spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1762spectra [00:00, 5760.85spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 2972spectra [00:00, 7255.83spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2351spectra [00:00, 5808.18spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 723spectra [00:00, 7225.08spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 3709spectra [00:00, 7294.32spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2933spectra [00:00, 5663.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1446spectra [00:00, 7029.17spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 4439spectra [00:00, 7213.33spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3501spectra [00:00, 5649.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2150spectra [00:00, 6973.27spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5161spectra [00:00, 7171.29spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4067spectra [00:00, 5643.03spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2848spectra [00:00, 6965.24spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 5879spectra [00:00, 7168.55spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4649spectra [00:00, 5696.41spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3617spectra [00:00, 7219.75spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA1-TUM_first_pool_1_01_01-DDA-1h-R2_primenovo.mgf: 6597spectra [00:00, 7278.03spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5219spectra [00:00, 5620.90spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7210.27spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5782spectra [00:01, 5508.44spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6367spectra [00:01, 5609.70spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6986spectra [00:01, 5782.71spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5762.30spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 565spectra [00:00, 5645.35spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1136spectra [00:00, 5681.42spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 1705spectra [00:00, 5559.04spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2284spectra [00:00, 5646.77spectra/s][rank: 1] Global seed set to 8286
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 2849spectra [00:00, 5598.07spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3410spectra [00:00, 5597.28spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 3974spectra [00:00, 5610.98spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 4560spectra [00:00, 5688.80spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5129spectra [00:00, 5686.74spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 5698spectra [00:01, 5547.79spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6292spectra [00:01, 5662.86spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 6906spectra [00:01, 5805.66spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GA2-TUM_first_pool_9_01_01-DDA-1h-R2_primenovo.mgf: 7410spectra [00:01, 5752.38spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 718spectra [00:00, 7178.36spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1436spectra [00:00, 7038.22spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2141spectra [00:00, 6999.14spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2848spectra [00:00, 7026.21spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3597spectra [00:00, 7189.62spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7160.70spectra/s]
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 0spectra [00:00, ?spectra/s][rank: 2] Global seed set to 5228
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 736spectra [00:00, 7355.75spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 1472spectra [00:00, 7173.69spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2190spectra [00:00, 7090.29spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 2903spectra [00:00, 7102.25spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 3665spectra [00:00, 7284.02spectra/s]/storage/guotiannanLab/sunyingying/09.MassNet-meta_val/10.test.use.20250825/test/06.test_dataset_04.syntheticpep_raw_tsv_sagefp100_overlap_parquet_01625b_GB1-TUM_first_pool_2_01_01-DDA-1h-R2_primenovo.mgf: 4273spectra [00:00, 7277.22spectra/s]
+[rank: 3] Global seed set to 8310
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+what lock is this: False
+what lock is this: False
+what lock is this: False
+max_iter 3907
+what is training from??   True
+Before max_length: 40
+after init: 40
+notice here:  5
+num avaiable devices 4
+model size is :  32480857
+prepare_data ing.....
+what lock is this: False
+what lock is this: False
+what lock is this: False
+each data size:  18280
+each data size:  18280
+each data size:  18280
+each data size:  18280
+Training: 0it [00:00, ?it/s]Training:   0%|          | 0/1013 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1013 [00:00<?, ?it/s] what lock is this: False
+what lock is this: False
+what lock is this: False
+max_iter 3907
+what is training from??   True
+Before max_length: 40
+after init: 40
+notice here:  5
+num avaiable devices 4
+model size is :  32480857
+what lock is this: False
+what lock is this: False
+what lock is this: False
+each data size:  18280
+each data size:  18280
+each data size:  18280
+each data size:  18280
+what lock is this: False
+what lock is this: False
+what lock is this: False
+max_iter 3907
+what is training from??   True
+Before max_length: 40
+after init: 40
+notice here:  5
+num avaiable devices 4
+model size is :  32480857
+what lock is this: False
+what lock is this: False
+what lock is this: False
+each data size:  18280
+each data size:  18280
+each data size:  18280
+each data size:  18280
+what lock is this: False
+what lock is this: False
+what lock is this: False
+max_iter 3907
+what is training from??   True
+Before max_length: 40
+after init: 40
+notice here:  5
+num avaiable devices 4
+model size is :  32480857
+what lock is this: False
+what lock is this: False
+what lock is this: False
+each data size:  18280
+each data size:  18280
+each data size:  18280
+each data size:  18280
+Traceback (most recent call last):
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 211, in <module>
+    main()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 208, in main
+    model_runner.train(peak_path, peak_path_val, peak_path_test, model, config)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model_runner.py", line 490, in train
+    trainer.fit(model, 
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 603, in fit
+    call._call_and_handle_interrupt(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 38, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 645, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1098, in _run
+    results = self._run_stage()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1177, in _run_stage
+    self._run_train()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1200, in _run_train
+    self.fit_loop.run()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 214, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 200, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 247, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, kwargs.get("batch_idx", 0), closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 357, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1342, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/module.py", line 1661, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/optimizer.py", line 169, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 281, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 234, in optimizer_step
+    return self.precision_plugin.optimizer_step(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 121, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/adamw.py", line 161, in step
+    loss = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 107, in _wrap_closure
+    closure_result = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 147, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 133, in closure
+    step_output = self._step_fn()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 406, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1480, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 352, in training_step
+    return self.model(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1519, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1355, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 569, in training_step
+    pred, truth, output_list = self._forward_step(*batch, glat_prev)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 509, in _forward_step
+    return self.decoder(sequences, precursors, *self.encoder(spectra, precursors), prev)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/components/transformers.py", line 587, in forward
+    output = mod(output, memory, tgt_mask=None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 848, in forward
+    x = self.norm3(x + self._ff_block(x))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 874, in _ff_block
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/functional.py", line 1266, in dropout
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 2 has a total capacty of 79.22 GiB of which 960.00 KiB is free. Process 3372261 has 518.00 MiB memory in use. Process 3373584 has 518.00 MiB memory in use. Including non-PyTorch memory, this process has 77.67 GiB memory in use. Process 3373806 has 518.00 MiB memory in use. Of the allocated memory 75.38 GiB is allocated by PyTorch, and 232.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+each data size:  18280
+Traceback (most recent call last):
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 211, in <module>
+    main()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 208, in main
+    model_runner.train(peak_path, peak_path_val, peak_path_test, model, config)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model_runner.py", line 490, in train
+    trainer.fit(model, 
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 603, in fit
+    call._call_and_handle_interrupt(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 38, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 645, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1098, in _run
+    results = self._run_stage()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1177, in _run_stage
+    self._run_train()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1200, in _run_train
+    self.fit_loop.run()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 214, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 200, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 247, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, kwargs.get("batch_idx", 0), closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 357, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1342, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/module.py", line 1661, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/optimizer.py", line 169, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 281, in optimizer_step
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 234, in optimizer_step
+    return self.precision_plugin.optimizer_step(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 121, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/adamw.py", line 161, in step
+    loss = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 107, in _wrap_closure
+    closure_result = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 147, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 133, in closure
+    step_output = self._step_fn()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 406, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1480, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 352, in training_step
+    return self.model(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1519, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1355, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 569, in training_step
+    pred, truth, output_list = self._forward_step(*batch, glat_prev)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 509, in _forward_step
+    return self.decoder(sequences, precursors, *self.encoder(spectra, precursors), prev)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/components/transformers.py", line 587, in forward
+    output = mod(output, memory, tgt_mask=None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 848, in forward
+    x = self.norm3(x + self._ff_block(x))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 874, in _ff_block
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/functional.py", line 1266, in dropout
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 1 has a total capacty of 79.22 GiB of which 960.00 KiB is free. Process 3372261 has 518.00 MiB memory in use. Including non-PyTorch memory, this process has 77.67 GiB memory in use. Process 3373666 has 518.00 MiB memory in use. Process 3373806 has 518.00 MiB memory in use. Of the allocated memory 75.38 GiB is allocated by PyTorch, and 232.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+each data size:  18280
+Traceback (most recent call last):
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 211, in <module>
+    main()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 208, in main
+    model_runner.train(peak_path, peak_path_val, peak_path_test, model, config)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model_runner.py", line 490, in train
+    trainer.fit(model, 
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 603, in fit
+    call._call_and_handle_interrupt(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 36, in _call_and_handle_interrupt
+    return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 90, in launch
+    return function(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 645, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1098, in _run
+    results = self._run_stage()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1177, in _run_stage
+    self._run_train()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1200, in _run_train
+    self.fit_loop.run()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 214, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 200, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 247, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, kwargs.get("batch_idx", 0), closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 357, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1342, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/module.py", line 1661, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/optimizer.py", line 169, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 281, in optimizer_step
+Traceback (most recent call last):
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 234, in optimizer_step
+    return self.precision_plugin.optimizer_step(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 121, in optimizer_step
+    return optimizer.step(closure=closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    return _run_code(code, main_globals, None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/runpy.py", line 86, in _run_code
+    out = func(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+    exec(code, run_globals)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/adamw.py", line 161, in step
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 211, in <module>
+    loss = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 107, in _wrap_closure
+    main()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1130, in __call__
+    closure_result = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 147, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 133, in closure
+    step_output = self._step_fn()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 406, in _training_step
+    return self.main(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1055, in main
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1480, in _call_strategy_hook
+    rv = self.invoke(ctx)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 1404, in invoke
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 352, in training_step
+    return self.model(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/XuanjiNovo.py", line 208, in main
+    return self._call_impl(*args, **kwargs)
+    model_runner.train(peak_path, peak_path_val, peak_path_test, model, config)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model_runner.py", line 490, in train
+    trainer.fit(model, 
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 603, in fit
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1519, in forward
+    call._call_and_handle_interrupt(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 38, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 645, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1098, in _run
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1355, in _run_ddp_forward
+    results = self._run_stage()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1177, in _run_stage
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    self._run_train()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1200, in _run_train
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    self.fit_loop.run()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 569, in training_step
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+    pred, truth, output_list = self._forward_step(*batch, glat_prev)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 214, in advance
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 509, in _forward_step
+    batch_output = self.batch_loop.run(kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    return self.decoder(sequences, precursors, *self.encoder(spectra, precursors), prev)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 200, in advance
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 247, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, kwargs.get("batch_idx", 0), closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 357, in _optimizer_step
+    self.trainer._call_lightning_module_hook(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1342, in _call_lightning_module_hook
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/components/transformers.py", line 587, in forward
+    output = mod(output, memory, tgt_mask=None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/module.py", line 1661, in optimizer_step
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 848, in forward
+    optimizer.step(closure=optimizer_closure)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/core/optimizer.py", line 169, in step
+    step_output = self._strategy.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 281, in optimizer_step
+    x = self.norm3(x + self._ff_block(x))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 874, in _ff_block
+    optimizer_output = super().optimizer_step(optimizer, opt_idx, closure, model, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py", line 234, in optimizer_step
+    return self.precision_plugin.optimizer_step(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 121, in optimizer_step
+    x = self.linear2(self.dropout(self.activation(self.linear1(x))))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return optimizer.step(closure=closure, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    ret = func(self, *args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/optim/adamw.py", line 161, in step
+    loss = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 107, in _wrap_closure
+    closure_result = closure()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 147, in __call__
+    self._result = self.closure(*args, **kwargs)
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 133, in closure
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+    step_output = self._step_fn()
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/functional.py", line 1266, in dropout
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 406, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1480, in _call_strategy_hook
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacty of 79.22 GiB of which 16.94 MiB is free. Including non-PyTorch memory, this process has 77.65 GiB memory in use. Process 3373584 has 518.00 MiB memory in use. Process 3373666 has 518.00 MiB memory in use. Process 3373806 has 518.00 MiB memory in use. Of the allocated memory 75.38 GiB is allocated by PyTorch, and 232.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+    output = fn(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 352, in training_step
+    return self.model(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1519, in forward
+    else self._run_ddp_forward(*inputs, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 1355, in _run_ddp_forward
+    return self.module(*inputs, **kwargs)  # type: ignore[index]
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 569, in training_step
+    pred, truth, output_list = self._forward_step(*batch, glat_prev)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/denovo/model.py", line 509, in _forward_step
+    return self.decoder(sequences, precursors, *self.encoder(spectra, precursors), prev)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/sunyingying/massNet-meta/MassNet-DDA-main/XuanjiNovo_20250826/components/transformers.py", line 587, in forward
+    output = mod(output, memory, tgt_mask=None,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 846, in forward
+    x = self.norm1(x + self._sa_block(x, tgt_mask, tgt_key_padding_mask, tgt_is_causal))
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 855, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 1241, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/functional.py", line 5300, in multi_head_attention_forward
+each data size:  18280
+    q, k, v = _in_projection_packed(query, key, value, in_proj_weight, in_proj_bias)
+  File "/storage/guotiannanLab/liuzhiwei/anaconda3/envs/XuanjiNovo/lib/python3.10/site-packages/torch/nn/functional.py", line 4824, in _in_projection_packed
+    proj = linear(q, w, b)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 3 has a total capacty of 79.22 GiB of which 16.94 MiB is free. Process 3372261 has 518.00 MiB memory in use. Process 3373584 has 518.00 MiB memory in use. Process 3373666 has 518.00 MiB memory in use. Including non-PyTorch memory, this process has 77.65 GiB memory in use. Of the allocated memory 75.47 GiB is allocated by PyTorch, and 203.27 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+each data size:  18280
+Epoch 0:   0%|          | 0/1013 [00:17<?, ?it/s]Usage: python -m XuanjiNovo [OPTIONS]
+Try 'python -m XuanjiNovo --help' for help.
+
+Error: Got unexpected extra argument (output=./Xuanji_logs/logs)
