@@ -1,1 +1,2 @@
-生物序列预测的课程学习：从头肽测序案例
+#RefineNovo
+Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing
